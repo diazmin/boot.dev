@@ -67,5 +67,18 @@ Hint: Use max() and min() functions.
 '''
 
 input = [1, 5, 2, 8, 3]
-print("minimum value is: ", min(input))
-print("maximum value is: ", max(input))
+
+# Using built-in functions
+#print("minimum value is: ", min(input))
+#print("maximum value is: ", max(input))
+
+# Making the manual process
+max_number = 0
+min_number = float("inf")
+for i in input:
+    if i > max_number:
+        max_number = i
+    if i < min_number:
+        min_number = i
+print("maximum value is: ", max_number)
+print("minimum value is: ", min_number)

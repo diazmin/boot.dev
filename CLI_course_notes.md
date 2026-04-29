@@ -1,9 +1,13 @@
+### Locate in directories
+```
 whoami: prints out the current user.
 pwd: "print working directory".
 cd ~ is the alias of /Users/diazmin (the home directory)
 cd: "change directory".
 ls: displays a list of the content inside a folder.
-
+```
+### Manipulate files
+```
 cat: 'concatenate'. To show content of a file (or multiple files).
 head: to show the first lines of a file: head -n 10 file1.txt
 tail: to show the last lines of a file: tail -n 10 file1.txt
@@ -31,6 +35,7 @@ rm: "remove command" deletes a file or empty directory: rm some_file.txt
     to delete a directory and all of its contents recursively: rm -r some_directory
 cp: it copies a file from one location to another: cp source_file.txt destination/
     copying a directory and all of its contents recursively: cp -R my_dir new_dir
+```
 
 ### Running multiple commands
 You can run multiple commands on a single line by separating them with a semicolon (;).

@@ -13,6 +13,15 @@ person = {"name": "Alice", "age": 30}
 Add/update elements:
 person["city"] = "New York"     # Add new key
 person["age"] = 31              # Update existing key
+* If you try to set the value of a key that already exists, you'll end up just updating the value of that key.
+
+planets = {
+    "Pluto": True,
+}
+planets["Pluto"] = False
+print(planets["Pluto"])
+# Prints False
+
 
 Remove elements:
 del person["age"]               # Remove by key
